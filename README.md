@@ -37,7 +37,7 @@ This Node.js tool processes images from an input folder, resizes them to fit wit
 3. Modify the inputFolderPath, outputFolderPath, widthCm, heightCm, dpi, minBorderCm, and makeSquare variables in the createPoster.js script to match your requirements.
 4. Run the script:
 
-   ```sh
+   ```
    node createPoster.js
    ```
 
@@ -45,15 +45,15 @@ This Node.js tool processes images from an input folder, resizes them to fit wit
 
 Modify these variables in the script as needed:
 
-    ```js
-    const inputFolderPath = 'path/to/your/input/folder';
-    const outputFolderPath = 'path/to/your/output/folder';
-    const widthCm = 30;   // Poster width in cm
-    const heightCm = 40;  // Poster height in cm
-    const dpi = 300;      // Poster DPI
-    const minBorderCm = 1; // Minimum border width in cm
-    const makeSquare = true; // Option to make the poster square if the original is close to square
-    ```
+```
+const inputFolderPath = 'path/to/your/input/folder';
+const outputFolderPath = 'path/to/your/output/folder';
+const widthCm = 30;   // Poster width in cm
+const heightCm = 40;  // Poster height in cm
+const dpi = 300;      // Poster DPI
+const minBorderCm = 1; // Minimum border width in cm
+const makeSquare = true; // Option to make the poster square if the original is close to square
+```
 
 ## Script Details
 
